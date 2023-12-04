@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+  }
+
+:root {
+    --navbar-bg: #EFEFEF;
+    --text-1: #A95413;
+    --text-2: #6A9C89;
+    --text-3: #747474;
+    --text-4: #FFF8F8;
+    --bg-btn: #FFAA5B;
+    --bg-inform: #FFE3CA;
+    --span: #D7601F;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 1rem 9%;
+    justify-content: space-between;
+    background: var(--navbar-bg);
+    top: 0;
+}
+.image img {
+    height: 32px;
+}
+.navbar {
+    margin-top: .5rem;
+    margin-right: -40rem;
+}
+.navbar a {
+    margin-right: 45px;
+    color: #000;
+}
+
+.navbar a:hover {
+    color: var(--text-1);
+}
+
+.btn {
+    padding: 6px 24px;
+    /* background: var(--bg-btn); */
+    color: var(--text-3);
+    border-radius: 54px;
+    border: 2px solid var(--bg-btn);
+    /* text-align: center; */
+    transition: .2s;
+}
+.btn:hover {
+    background: var(--bg-btn);
+    color: var(--text-4);
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 2rem 2rem 4rem 4rem;
+    margin-left: 140px;
+}
+
+.img img {
+    margin-right: 10rem;
+}
+
+.content h3 {
+    color: var(--text-2);
+font-family: Poppins;
+font-size: 25.962px;
+font-style: normal;
+font-weight: 600;
+}
+
+.content h2 {
+    color: var(--text-1);
+font-family: Poppins;
+font-size: 59.233px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 22px;
+}
+
+.content p {
+    color: #747474;
+font-size: 16.333px;
+font-weight: 600;
+margin-bottom: 60px;
+}
+
+.content .btn {
+    font-weight: 600;
+}
+
+.informasi {
+    padding: 8rem 9%;
+    display: flex;
+    gap: 10rem;
+    /* margin-top: 60px; */
+}
+.inform {
+    display: flex;
+    margin-bottom: 67px;
+    padding: 1rem 30px;
+    background: var(--bg-inform);
+    border-radius: 18px;
+    gap: 40px;
+    transition: .2s;
+}
+.inform:hover {
+    transform: scale(1.07);
+}
+
+.explanation h3{
+    margin-bottom: 20px;
+    color: var(--span);
+    font-size: 30px;
+}
+
+span {
+    color: var(--span);
+}
+
+aside {
+    padding: 10px 35px;
+    background: var(--bg-inform);
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: .2s;
+}
+
+th {
+    font-weight: 500;
+}
+
+table {
+    margin-bottom: 20px;
+}
+.eh h3 {
+    margin-bottom: 21px;
+    margin-top: 21px;
+    color: var(--span);
+}
+
+footer {
+    /* background: var(--navbar-bg); */
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text-3);
+}
+
+@media (max-width:1200px) {
+    main {
+        margin-left: -70px;
+    }
+    .home {
+        gap: 5rem;
+    }
+
+    /* .header {
+
+    } */
+}
